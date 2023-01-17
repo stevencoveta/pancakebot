@@ -14,7 +14,7 @@ infura_url = "input wss infura url"
 
 w3 = Web3(Web3.HTTPProvider(infura_url))
 w3.middleware_onion.inject(geth_poa_middleware, layer=0)
-f = open("/Users/steven/Desktop/jspkswap/python_swaps/abi.json")
+f = open("abi.json")
 abi = json.load(f)
 
        
