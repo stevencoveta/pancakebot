@@ -16,7 +16,7 @@ web3.middleware_onion.inject(geth_poa_middleware, layer=0)
 print(web3.isConnected())
 
 address_pcs = '0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA'
-f = open("/Applications/steven/jspkswap/python_swaps/abi.json")
+f = open("abi.json")
 contract_abi = json.load(f)
 contract = web3.eth.contract(address=address_pcs, abi=contract_abi)
 
