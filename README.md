@@ -19,7 +19,5 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/pancake-game-web3-filters.git
 cd pancake-game-web3-filters
-
-### to start 
-#### -r requirements.txt
-#### python3 web3_filters.py
+pip install -r requirements.txt
+python3 web3_filters.py
